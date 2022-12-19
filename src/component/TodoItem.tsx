@@ -1,5 +1,4 @@
 import React from 'react'
-import Todo from '../models/todo'
 import classes from '../component/TodoItem.module.css'
 
 const TodoItem:React.FC<{item:{id:string,text:string},onRemoveTodo:(id:string)=>void }> = (props) => {
